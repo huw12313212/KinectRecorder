@@ -136,7 +136,7 @@ public class KinectRecorder : MonoBehaviour {
 			
 			foreach(Transform t in cubes)
 			{
-				Vector3 position = t.localPosition;
+				Vector3 position = t.position;
 
 				if(t.gameObject.activeSelf&&position!=Vector3.zero)
 				{
